@@ -40,7 +40,7 @@ namespace App1_ConsultarCep
                     if (end != null)
                     {
 
-                        RESULTADO.Text = string.Format("Endereço:{2} de {3} {0}, {1}  ", end.localidade, end.uf, end.logradouro, end.bairro);
+                        RESULTADO.Text = string.Format("Endereço: {2} - Bairro: {3} {0}, {1} ", end.localidade, end.uf, end.logradouro, end.bairro);
                     }
                     else
                     {
